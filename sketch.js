@@ -91,12 +91,12 @@ function draw() {
 
 //create mouseDragged function here
 function mouseDragged(){
-  Matter.Body.setPosition(stone.body,{x:mouseX,y:mouseY});
+  Matter.Body.setPosition(stoneObj.body,{x:mouseX,y:mouseY});
 }
 
 //create mouseReleased function here
 function mouseReleased(){
-  launcher.fly();
+  launcherObject.fly();
 }
 
 //create keyPressed function here
